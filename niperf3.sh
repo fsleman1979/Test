@@ -3,8 +3,8 @@ set -euo pipefail
 
 # ===== Fixed ASML server details =====
 SERVER_IP="172.29.192.139"
-TCP_PORT="3003"
-UDP_PORT="3002"   # ASML range 3000–3020; using 3020 for UDP
+TCP_PORT="3012"
+UDP_PORT="3013"   # ASML range 3000–3020; using 3020 for UDP
 
 BASE_DIR="$HOME/ASML_Test"
 mkdir -p "$BASE_DIR"
